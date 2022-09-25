@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to Ttop, rgb(117, 132, 132), white);
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+a.nav-item {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card {
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 50px;
+}
+
+/* .page-wrapper {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+} */
+
+.profile-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
