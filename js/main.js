@@ -1,4 +1,5 @@
-//replace with your user:
+// fetch profile image and name from github
+
 const GITHUB_URL = 'https://api.github.com/users/shiragin';
 
 fetch(GITHUB_URL)
@@ -8,5 +9,6 @@ fetch(GITHUB_URL)
   .then(function (data) {
     const profileImage = document.getElementById('profile-image');
     const profileName = document.getElementById('profile-name');
-    // update the profileImage and profileName with the information retrieved.
+    profileImage.src = data.avatar_url;
+    profileName.src = data.name;
   });
