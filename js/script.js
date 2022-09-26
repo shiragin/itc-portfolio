@@ -6,6 +6,7 @@ const footer = document.querySelector('.credits');
 const card = document.querySelector('.card');
 const profileImage = document.getElementById('profile-image');
 const profileName = document.getElementById('profile-name');
+const buttons = Array.from(document.querySelectorAll('.side'));
 
 // fetch profile image and name from github
 
@@ -36,4 +37,13 @@ createFooter();
 // show card only after img loaded up
 profileImage.addEventListener('load', function () {
   card.classList.remove('hidden');
+});
+
+// Add animation to buttons when hovering on card
+
+card.addEventListener('mouseover', function () {
+  buttons.forEach(button => {
+    button.classList.remove('hidden');
+    button.classList.add('animate');
+  });
 });
