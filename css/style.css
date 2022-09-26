@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #010101;
+  background-color: #e1ebee;
   font-family: Roboto, sans-serif;
   line-height: 1.6;
 }
@@ -29,12 +29,23 @@ body {
 .main {
   /* background: url('../img/chris-henry-unsplash.jpg') no-repeat center
     center/cover; */
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../img/chris-henry-unsplash.jpg') no-repeat center center/cover;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 40px);
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+}
+
+.bg {
+  height: 90%;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('../img/chris-henry-unsplash.jpg') no-repeat center center/cover;
+  border-bottom-right-radius: 90%;
+  border-bottom-left-radius: 0%;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
 
 /* nav bar for all pages */
@@ -152,6 +163,7 @@ a.nav-footer:hover {
 /* footer for all pages */
 
 footer {
+  background-color: #333;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
