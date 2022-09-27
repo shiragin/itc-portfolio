@@ -7,6 +7,7 @@ const card = document.querySelector('.card');
 const profileImage = document.getElementById('profile-image');
 const profileName = document.getElementById('profile-name');
 const buttons = Array.from(document.querySelectorAll('.side'));
+const accounts = Array.from(document.querySelectorAll('.account'));
 
 // fetch profile image and name from github
 
@@ -39,11 +40,21 @@ profileImage.addEventListener('load', function () {
   card.classList.remove('hidden');
 });
 
-// Add animation to buttons when hovering on card
+// Add animation to side buttons when hovering on card
 
 card.addEventListener('mouseover', function () {
   buttons.forEach(button => {
     button.classList.remove('hidden');
-    button.classList.add('animate');
+    button.classList.add('show');
+  });
+});
+
+// Add animation to account buttons when clicking on card
+card.addEventListener('click', function () {
+  accounts.forEach(button => {
+    button.classList.add('bounce');
+    setTimeout(function () {
+      button.classList.remove('bounce');
+    }, 2000);
   });
 });

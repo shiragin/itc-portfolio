@@ -13,6 +13,41 @@
   }
 }
 
+@keyframes bounceObject {
+  30% {
+    transform: scale(1.2);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.2);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* @keyframes bounceObject {
+  from,
+  to {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    transform: scale(0.95, 1.05);
+  }
+} */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -183,6 +218,10 @@ a.nav-footer:hover {
   color: #63bb95;
 }
 
+.bounce {
+  animation: bounceObject 2s ease-in-out;
+}
+
 /* Animating side buttons: showing wqhen hovering on card */
 
 .buttons-container {
@@ -207,8 +246,8 @@ a.nav-footer:hover {
   margin: 0;
 }
 
-.animate {
-  animation: moveObject 1.5s ease-in;
+.show {
+  animation: moveObject 1.5s ease-out;
 }
 
 /* About page main section */
