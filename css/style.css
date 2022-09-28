@@ -280,11 +280,14 @@ section.fill {
 
 .container-text {
   height: 60vh;
-  padding: 0 100px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 100px 0 40px;
 }
 
 .container-text-left {
-  /* height: 60vh; */
   padding: 0 40px 0 100px;
 }
 
@@ -294,33 +297,8 @@ section.fill {
   transform: translateX(-1000px);
   animation: textFlow 1s forwards ease-in;
 }
-/* 
-.flow:nth-child(1) {
-  animation-delay: 0.5s;
-}
-
-.flow:nth-child(2) {
-  animation-delay: 1s;
-}
-
-.flow:nth-child(3) {
-  animation-delay: 1.5s;
-}
-
-.flow:nth-child(4) {
-  animation-delay: 2s;
-}
-
-.flow:nth-child(5) {
-  animation-delay: 2.5s;
-} */
 
 .flow2 {
-  transform: translateX(-1000px);
-  animation: textFlow 1s forwards ease-in;
-}
-
-.flow3 {
   transform: translateX(1000px);
   animation: textFlow 1s forwards ease-in;
 }
@@ -328,14 +306,14 @@ section.fill {
 /* Text sizes */
 
 h1.page-title {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 1.3rem;
 }
 
 h1.page-title.flow {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
 }
 
 p.page-text {
@@ -345,6 +323,11 @@ p.page-text {
 }
 
 /* Buttons (for index too) */
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+}
 
 button.more {
   width: 120px;
@@ -410,7 +393,7 @@ button.more-small {
 }
 
 h1.city {
-  margin: 10px 0 50px;
+  margin-bottom: 40px;
 }
 
 h3.city-name {
@@ -423,8 +406,8 @@ h3.city-name {
 }
 
 p.city-desc {
-  min-height: 70px;
-  margin-bottom: 30px;
+  min-height: 60px;
+  margin-bottom: 20px;
 }
 
 .map-frame {
