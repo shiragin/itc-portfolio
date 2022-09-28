@@ -8,7 +8,8 @@
     <title>ITC Precourse: About Me</title>
     <link rel="shortcut icon" href="../img/icons8-briefcase-pastel-glyph-32 2.png" type="image/x-icon">
     <link href="../css/style.css" rel="stylesheet" />
-    <script src="../js/script.js" defer></script>
+    <script src="../js/main.js" defer></script>
+    <script src="../js/about.js" defer></script>
     <script src="https://kit.fontawesome.com/c7cd36f5b5.js" crossorigin="anonymous"></script>
 </head>
 
@@ -34,21 +35,29 @@
             <div class="container">
                 <div class="container-text">
 
-                    <h1 class="intro-title">Hi, I'm Shira. <br>
+                    <h1 class="intro-title flow">Hi, I'm Shira. <br>
                         Fullstack developer.
                         <br>Graphic designer.<br>
                         Video game fanatic.<br>
                         Cat
                         lover.
                     </h1>
-                    <a href="#coding"><button class="more"><i class="fa-solid fa-laptop-code"></i>Coding</button></a>
-                    <a href="#career"><button class="more"><i class="fa-solid fa-newspaper"></i>Career</button></a><br>
-                    <a href="#hobbies"><button class="more"><i
-                                class="fa-regular fa-face-laugh-beam"></i>Hobbies</button></a>
-                    <a href="#maps"><button class="more"><i class="fa-solid fa-plane-departure"></i>Travels</button></a>
+                    <a href="#coding">
+                        <button class="more flow2"><i class="fa-solid fa-laptop-code"></i>Coding</button>
+                    </a>
+                    <a href="#coding">
+                        <button class="more flow2"><i class="fa-solid fa-newspaper"></i>Career</button>
+                    </a>
+                    <br>
+                    <a href="#hobbies">
+                        <button class="more flow2"><i class="fa-regular fa-face-laugh-beam"></i>Hobbies</button>
+                    </a>
+                    <a href="#maps">
+                        <button class="more flow2"><i class="fa-solid fa-plane-departure"></i>Travels</button>
+                    </a>
                 </div>
             </div>
-            <div class="container">
+            <div class="container flow3">
                 <img class="intro-img" src="../img/coder.png" alt="">
             </div>
         </section>
@@ -150,20 +159,28 @@
                 </div>
         </section>
 
-        <section id="maps" class="intro">
-            <div class="container">
-                <h1 class="intro-title">My favourite cities</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore a debitis dolorum quaerat saepe
-                    tempora, consequuntur quibusdam quasi incidunt illum esse architecto praesentium similique nihil,
-                    doloremque omnis. Sunt deleniti corporis quasi ab quidem! Quia adipisci iure reprehenderit magni
-                    officiis ut.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, praesentium molestiae. Error, odit
-                    tenetur, corporis molestiae in enim ducimus vel ut sequi facilis minima nihil dolor maxime
-                    reiciendis ipsum officiis reprehenderit? Aperiam fuga tempore impedit quam, natus iure officia
-                    minima? Enim aliquid eaque unde necessitatibus facere, sint laudantium ut, nobis earum asperiores
-                    odio laboriosam. Doloremque a porro, asperiores autem earum iste corporis maiores incidunt neque
-                    facere est? Asperiores, aliquam eaque.</p>
+        <section id="maps" class="intro fill">
+            <div class="container container-maps">
+                <div class="container-text-left">
+                    <h1 class="intro-title city">My favourite cities</h1>
+                    <h3 class="city-name">Tel Aviv</h3>
+                    <p class="text city-desc">I've lived in Tel Aviv for most of my life and I know it by heart. I love
+                        walking its streets and discovering all its little secrets. It's the ugliest city that I've ever
+                        loved.</p>
+                </div>
+                <iframe class="city-map"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11936.246197136878!2d34.77401800628981!3d32.08019604538603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1664325040174!5m2!1sen!2sil"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="map-buttons">
+                    <a href="#"><button class="more more-small"><i class="fa-solid fa-chevron-left"></i></button></a>
+                    <a href="#hobbies"><button class="more more-small"><i
+                                class="fa-solid fa-chevron-up"></i></button></a>
+                    <a href="#"><button class="more more-small"><i class="fa-solid fa-chevron-right"></i></button></a>
+                </div>
             </div>
+            <img class="intro-img-big-right city-img" src="../img/reiseuhu-YnaNGJ2blVM-unsplash.jpg" alt="">
+
         </section>
 
     </main>
