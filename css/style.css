@@ -183,7 +183,7 @@ section.bg {
 }
 
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
 .profile-image {
@@ -398,7 +398,7 @@ button.more-small {
   height: 80vh;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 60px;
+  gap: 20px;
 }
 
 h1.city {
@@ -413,8 +413,18 @@ h3.city-name {
   padding: 0 10px;
 }
 
-.city-map {
+p.city-desc {
+  min-height: 70px;
+  margin-bottom: 30px;
+}
+
+.map-frame {
+  background-color: #e1ebee;
   margin: 0;
   width: 100%;
   padding: 0 60px 0 100px;
+}
+
+.map-buttons {
+  margin-top: 0;
 }
