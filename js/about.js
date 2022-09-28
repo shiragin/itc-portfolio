@@ -30,7 +30,7 @@ const cities = [
   },
   {
     name: 'Mombasa',
-    desc: "Only one traffic light for the entire city, monkeys are the new stray cats, great Indian food, gorgeous beaches and the kindest people in the world. That's the Kenyan coast!",
+    desc: "Only one traffic light for the entire city, monkeys are the new stray cats, great Indian food, gorgeous beaches and the kindest people. That's the Kenyan coast!",
     map: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53607.82635418308!2d39.65141949777973!3d-4.056039643592951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1664404893311!5m2!1sen!2sil',
     img: '../img/harshil-gudka-unsplash.jpg',
   },
