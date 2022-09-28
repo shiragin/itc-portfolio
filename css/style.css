@@ -255,24 +255,14 @@ a.nav-footer:hover {
 
 /* About page main section */
 
-header.about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-main {
-  background-color: #e1ebee;
-}
-
-section.intro {
+section.page {
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-section.intro-dark {
+section.page-dark {
   background-color: #333;
   color: #ddd;
 }
@@ -298,6 +288,8 @@ section.fill {
   padding: 0 40px 0 100px;
 }
 
+/* Animation types  */
+
 .flow {
   transform: translateX(-1000px);
   animation: textFlow 2s forwards 0.5s ease-in;
@@ -313,17 +305,22 @@ section.fill {
   animation: textFlow 1s forwards ease-in;
 }
 
-h1.intro-title {
+/* Text sizes */
+
+h1.page-title {
   font-size: 3.2rem;
   font-weight: 900;
   line-height: 1.2;
   margin-bottom: 1.3rem;
 }
 
-p.text {
+p.page-text {
   font-size: 1.1rem;
-  line-height: 1.3;
+  line-height: 1.4;
+  margin-bottom: 0.4rem;
 }
+
+/* Buttons (for index too) */
 
 button.more {
   width: 120px;
@@ -331,9 +328,9 @@ button.more {
   border-radius: 50%;
   border: none;
   background-color: #63bb95;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: 200;
-  padding: 18px 5px 10px;
+  padding: 1rem 0.3rem 0.6rem;
   margin: 20px 20px 0 0;
   cursor: pointer;
 }
@@ -344,38 +341,33 @@ button.more:hover {
 
 button.more i {
   display: block;
-  font-size: 36px;
-  margin-bottom: 5px;
+  font-size: 2.25rem;
+  margin-bottom: 0.3rem;
 }
 
-.intro-img {
+/* Images classes */
+
+.page-img {
   height: 70vh;
   max-width: 50vh;
 }
 
-.intro-img-big {
+.page-img-big {
   height: 100%;
   max-width: 50vh;
   object-fit: cover;
   margin: 0;
   padding: 0;
+}
+
+.img-left {
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
 
-.intro-img-big-right {
-  height: 100%;
-  max-width: 50vh;
-  object-fit: cover;
-  margin: 0;
-  padding: 0;
+.img-right {
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
-}
-
-.intro-text {
-  font-size: 16px;
-  margin-bottom: 10px;
 }
 
 button.more-small {
@@ -398,12 +390,12 @@ h1.city {
 }
 
 h3.city-name {
-  border-radius: 20px;
+  border-radius: 1rem;
   display: inline-block;
-  font-size: 30px;
+  font-size: 1.9rem;
   background: #63bb95;
-  margin-bottom: 12px;
-  padding: 0 15px;
+  margin-bottom: 0.75rem;
+  padding: 0 1rem;
 }
 
 p.city-desc {
@@ -412,9 +404,11 @@ p.city-desc {
 }
 
 .map-frame {
-  background-color: #e1ebee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
-  width: 100%;
+  max-width: 100%;
   padding: 0 60px 0 100px;
 }
 
