@@ -264,7 +264,7 @@ li.account:hover p.account {
 /* About page main section */
 
 section.page {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -440,7 +440,7 @@ p.city-desc {
 
 section.contact {
   padding-top: 50px;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   background: #e1ebee;
   display: flex;
   flex-direction: column;

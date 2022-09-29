@@ -1,0 +1,80 @@
+/* Smartphones & small tablets */
+
+/* @media only screen and (max-width: 1024px) { */
+/* } */
+
+/* smartphones */
+
+@media only screen and (max-width: 480px) {
+  h1.logo {
+    font-size: 1.2rem;
+  }
+
+  .nav-bar {
+    height: 50px;
+  }
+
+  a.nav-item {
+    font-size: 0.8rem;
+    margin: 0.5rem;
+  }
+
+  .bg.contact {
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .contact .text-container {
+    width: 65%;
+    padding-top: 0;
+  }
+
+  h1.form-title {
+    font-size: 1.8rem;
+  }
+
+  h3.form-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+  }
+
+  input,
+  textarea {
+    border-radius: 10px;
+    margin-bottom: 0;
+  }
+
+  button.submit {
+    margin-top: 0;
+  }
+
+  footer {
+    height: 100px;
+    align-items: center;
+  }
+
+  nav.links-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a.nav-footer {
+    font-size: 0.9rem;
+    padding: 0.2rem 0 0.2rem;
+  }
+
+  .credits {
+    flex-basis: 40%;
+    font-size: 0.7rem;
+    text-align: right;
+  }
+}
