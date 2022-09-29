@@ -167,7 +167,7 @@ section.bg {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
-  padding: 2.5rem 0;
+  padding: 3rem 0;
   height: 600px;
   color: #fff;
 }
@@ -459,6 +459,8 @@ h3.form-subtitle {
   margin-bottom: 30px;
 }
 
+/* Form styles */
+
 form {
   width: 80%;
   display: flex;
@@ -481,12 +483,18 @@ textarea {
   border-radius: 15px;
   margin-top: 0.2rem;
   width: 100%;
-  border: 0.5px solid #ccc;
+  border: 1px solid #ccc;
   padding: 5px 10px;
 }
 
 textarea {
   min-height: 100px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #63bb95;
 }
 
 button.submit {
