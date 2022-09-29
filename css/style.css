@@ -207,7 +207,6 @@ ul.account-links {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 0.8rem;
 }
 
 li.account a {
@@ -218,6 +217,16 @@ li.account a {
 li.account a:hover,
 a.nav-footer:hover {
   color: #63bb95;
+}
+
+p.account {
+  font-size: 0.6rem;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+li.account:hover p.account {
+  opacity: 1;
 }
 
 .bounce {
