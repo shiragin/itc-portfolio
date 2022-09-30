@@ -40,6 +40,7 @@
 @keyframes textFlow {
   to {
     transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -291,7 +292,7 @@ section.fill {
 }
 
 .container-text-left {
-  padding: 0 40px 0 100px;
+  padding: 0 60px 0 80px;
 }
 
 /* Animation types  */
@@ -302,21 +303,27 @@ section.fill {
 }
 
 .flow2 {
-  transform: translateX(1000px);
-  animation: textFlow 1s forwards ease-in;
+  opacity: 0;
+  transform: translateY(1000px);
+  animation: textFlow 1s forwards 3s ease-in;
 }
 
 /* Text sizes */
 
 h1.page-title {
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2.8rem;
+  font-weight: 700;
   line-height: 1.2;
   margin-bottom: 1.3rem;
 }
 
 h1.page-title.flow {
   margin-bottom: 0.6rem;
+}
+
+h1.bigger {
+  font-weight: 900;
+  font-size: 3.5rem;
 }
 
 p.page-text {
@@ -386,6 +393,46 @@ button.more-small {
   height: 80px;
   width: 80px;
   margin-top: 40px;
+}
+
+/* Career section */
+
+/* .career-lists {
+  display: flex;
+  flex-direction: row;
+} */
+
+/* .career-list {
+  width: 50%;
+} */
+
+.career-list ul {
+  list-style-type: none;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+h3.career-title {
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin-bottom: 0.2rem;
+}
+
+h3.career {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h5.sub {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+p.career {
+  font-size: 0.9rem;
+  line-height: 1.2;
+  margin-bottom: 0.4rem;
 }
 
 /* Cities section */
