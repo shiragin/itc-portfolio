@@ -410,29 +410,34 @@ button.more-small {
   list-style-type: none;
   font-size: 1rem;
   line-height: 1.2;
+  font-weight: 200;
 }
 
 h3.career-title {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.2;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.4rem;
+  margin-top: 1rem;
+  text-decoration: underline;
 }
 
 h3.career {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.2;
 }
 
 h5.sub {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
+  font-style: italic;
 }
 
 p.career {
   font-size: 0.9rem;
   line-height: 1.2;
   margin-bottom: 0.4rem;
+  font-weight: 200;
 }
 
 /* Cities section */
