@@ -1,12 +1,14 @@
-/* Smartphones & small tablets */
-
 /* @media only screen and (max-width: 1024px) { */
 /* } */
 
 /* smartphones */
 
-@media only screen and (max-width: 480px) {
+/* Smartphones & small tablets */
+
+@media only screen and (max-width: 768px) {
   h1.logo {
+    margin: 0;
+    padding-top: 8px;
     font-size: 1.2rem;
   }
 
@@ -35,7 +37,7 @@
 
   h3.form-subtitle {
     font-size: 1.1rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
   }
 
   .form-group {
@@ -76,5 +78,9 @@
     flex-basis: 40%;
     font-size: 0.7rem;
     text-align: right;
+  }
+
+  select {
+    color: #333;
   }
 }

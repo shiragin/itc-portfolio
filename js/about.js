@@ -12,7 +12,6 @@ const flows = Array.from(document.querySelectorAll('.flow'));
 for (let i = 1; i < flows.length; i++) {
   delay = i * 0.5;
   flows[i].style.animationDelay = delay + 's';
-  console.log(flows[i].style);
 }
 
 // Map buttons
