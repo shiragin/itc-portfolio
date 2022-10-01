@@ -1,11 +1,15 @@
 /* @media only screen and (max-width: 1024px) { */
 /* } */
 
-/* smartphones */
+/* small smartphones */
+
+/* @media only screen and (max-width: 78px) */
 
 /* Smartphones & small tablets */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 786px) {
+  /* Nav bar */
+
   h1.logo {
     margin: 0;
     padding-top: 8px;
@@ -21,9 +25,83 @@
     margin: 0.5rem;
   }
 
+  /* Footer */
+
+  footer {
+    height: 100px;
+    align-items: center;
+  }
+
+  nav.links-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  a.nav-footer {
+    font-size: 0.9rem;
+    padding: 0.2rem 0 0.2rem;
+  }
+
+  .credits {
+    flex-basis: 40%;
+    font-size: 0.7rem;
+    text-align: right;
+  }
+
+  /* Index page */
+
+  section.bg {
+    min-height: calc(100vh - 150px);
+    margin-top: 50px;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    margin-top: 0;
+    padding: 3rem 0;
+  }
+
+  .profile-image {
+    height: 200px;
+    width: 200px;
+  }
+
+  h1.profile-name {
+    font-size: 2.6rem;
+  }
+
+  h3.profile-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  li.account a {
+    font-size: 1.5rem;
+  }
+
+  .buttons-container {
+    padding-bottom: 10px;
+  }
+
+  button.more.side {
+    width: 100px;
+    height: 100px;
+    font-size: 1rem;
+  }
+
+  button.more.side i {
+    font-size: 2rem;
+  }
+
+  /* Contact page */
+
+  section.contact {
+    height: 100vh;
+  }
+
   .bg.contact {
-    height: 100%;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding: 40px 0;
   }
 
   .contact .text-container {
@@ -57,27 +135,6 @@
 
   button.submit {
     margin-top: 0;
-  }
-
-  footer {
-    height: 100px;
-    align-items: center;
-  }
-
-  nav.links-footer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  a.nav-footer {
-    font-size: 0.9rem;
-    padding: 0.2rem 0 0.2rem;
-  }
-
-  .credits {
-    flex-basis: 40%;
-    font-size: 0.7rem;
-    text-align: right;
   }
 
   select {
