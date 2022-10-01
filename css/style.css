@@ -372,7 +372,7 @@ button.more i {
 }
 
 .page-img-big {
-  min-height: 100vh;
+  height: 100vh;
   width: 50vw;
   object-fit: cover;
   margin: 0;
@@ -380,13 +380,11 @@ button.more i {
 }
 
 .img-left {
-  border-top-right-radius: 50%;
-  border-bottom-right-radius: 50%;
+  border-radius: 0 50% 50% 0;
 }
 
 .img-right {
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
+  border-radius: 50% 0 0 50%;
 }
 
 button.more-small {
