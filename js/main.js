@@ -1,7 +1,7 @@
 const codingLanguages = ['HTML', 'CSS', 'JavaScript'];
 
 // DOM elements
-const footer = document.querySelector('.credits');
+const footer = document.querySelector('.coding-credits');
 
 // create footer with codingLanguages array
 

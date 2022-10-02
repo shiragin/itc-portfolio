@@ -135,13 +135,23 @@ a.footer-links {
 }
 
 a.nav-footer {
-  color: #aaa;
+  color: #ccc;
   font-size: 1rem;
   padding: 0.75rem;
   text-decoration: none;
 }
 
-footer .credits {
+footer .footer-credits {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: right;
+}
+
+footer .photo-credits {
+  font-size: 0.6rem;
+}
+
+footer .photo-credits a {
   color: #aaa;
 }
 
@@ -519,6 +529,10 @@ section.contact {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.contact-text {
+  width: 40%;
 }
 
 h1.form-title {
