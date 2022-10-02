@@ -74,7 +74,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  overflow-y: hidden;
 }
 
 .nav-bar {
@@ -90,25 +89,23 @@ header {
 
 h1.logo {
   color: #2d503f;
-  padding: 0.4rem 1.25rem;
+  padding-left: 1.25rem;
 }
 
 nav.links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
-  gap: 0.4rem;
+  margin-right: 1rem;
 }
 
 a.nav-item {
-  margin: 0 1.25rem;
+  margin: 0 2rem;
   font-size: 1.25rem;
   font-weight: 400;
-  padding: 0.5rem 0.4rem 0;
+  /* padding: 0.5rem 0.4rem 0; */
   text-decoration: none;
   color: #2d503f;
-  border-bottom: 0.2rem solid transparent;
   transition: all 0.2s ease-in-out;
 }
 
@@ -123,8 +120,7 @@ footer {
   padding: 0.6rem 1.25rem;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin: 0;
+  align-items: center;
   height: 50px;
 }
 
@@ -148,7 +144,7 @@ footer .footer-credits {
 }
 
 footer .photo-credits {
-  font-size: 0.6rem;
+  font-size: 0.7rem;
 }
 
 footer .photo-credits a {
@@ -179,7 +175,6 @@ section.bg {
   justify-content: space-evenly;
   margin: 0 auto;
   padding: 6rem 0;
-  /* height: 650px; */
   color: #fff;
 }
 
@@ -215,8 +210,6 @@ ul.account-links {
   align-items: center;
   justify-content: space-evenly;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 li.account a {
@@ -243,7 +236,7 @@ li.account:hover p.account {
   animation: bounceObject 2s ease-in-out;
 }
 
-/* Animating side buttons: showing wqhen hovering on card */
+/* Animating side buttons: showing when hovering on card */
 
 .buttons-container {
   height: 100%;
@@ -285,10 +278,6 @@ section.page {
 section.page-dark {
   background-color: #333;
   color: #ddd;
-}
-
-section.fill {
-  justify-content: space-between;
 }
 
 .container {
@@ -345,20 +334,20 @@ p.page-text {
 
 /* Buttons (for index too) */
 
-.nav-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-}
-
 .main-buttons {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   margin-top: 50px;
+  gap: 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   gap: 20px;
 }
 
@@ -372,7 +361,7 @@ p.page-text {
   font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 400;
-  padding: 1.7rem 0.2rem 1rem;
+  padding: 1.8rem 0.2rem 1rem;
   text-align: center;
   cursor: pointer;
 }
@@ -393,19 +382,10 @@ p.page-text {
 
 /* Images classes */
 
-.page-img {
-  min-height: 70vh;
-  min-width: 50vw;
-  object-fit: contain;
-  padding: 0 60px 0 0;
-}
-
 .page-img-big {
   height: 100vh;
   width: 50vw;
   object-fit: cover;
-  margin: 0;
-  padding: 0;
 }
 
 .img-left {
@@ -557,13 +537,12 @@ form {
 }
 
 .form-group {
+  font-size: 1.2rem;
   margin-bottom: 1rem;
-  font-size: 1.1rem;
 }
 
 label {
   display: block;
-  margin-bottom: 0.2rem;
 }
 
 input,
@@ -589,13 +568,13 @@ select:focus {
 
 button.submit {
   border-radius: 15px;
-  margin-top: 1rem;
+  margin-top: 0.8rem;
   font-size: 1.1rem;
   font-weight: 500;
   background-color: #63bb95;
   color: #333;
   border: none;
-  padding: 8px 20px;
+  padding: 0.8rem 0;
   cursor: pointer;
 }
 
