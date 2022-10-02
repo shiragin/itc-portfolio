@@ -37,7 +37,7 @@ const cities = [
   },
   {
     name: 'Stockholm',
-    desc: "Hands down: best city ever! Stockholm is so pretty with its cobblestoned alleys, little secondhand shops, quaint cafes, moomins and ABBA, summer sails, winter ski and beautiful parks. There's something so calming about this city, a sense of 'mysa', as if everyone is so content simply to be there.",
+    desc: "Hands down: best city ever! Stockholm is so pretty with its cobblestoned alleys, little secondhand shops, quaint cafes, Moomins and ABBA, summer sailing, winter skiing and beautiful parks. There's something so calming about this city, a sense of 'mysa', as if everyone is so content simply to be there.",
     map: 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d65156.68902333003!2d18.03442303781927!3d59.313810092704756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1664365618738!5m2!1sen!2sil',
     img: '../img/linus-mimietz-unsplash.jpg',
     alt: 'Swedish flag over a cobblestoned street in Stockholm',

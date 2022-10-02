@@ -109,10 +109,16 @@
     font-size: 2.6rem;
   }
 
+  .main-buttons {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+
   .button.more {
     font-size: 1rem;
     width: 90px;
     height: 90px;
+    padding: 1.4rem 0 1rem;
   }
 
   .button.more i {
@@ -150,6 +156,10 @@
     line-height: 1.2;
   }
 
+  p.career {
+    font-size: 0.9rem;
+  }
+
   .nav-buttons {
     align-items: flex-start;
     gap: 20px;
@@ -159,6 +169,7 @@
     width: 60px;
     height: 60px;
     margin: 20px 0;
+    padding: 1.2rem 0 1rem;
   }
 
   .container-maps {
@@ -175,12 +186,14 @@
   }
 
   p.city-desc {
-    margin-bottom: 0;
+    min-height: 160px;
+    margin-bottom: 10px;
   }
 
   .map-frame {
-    padding: 0 50px;
+    padding: 0;
   }
+
   .map-buttons {
     display: flex;
     justify-content: center;
