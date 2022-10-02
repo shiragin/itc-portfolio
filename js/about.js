@@ -23,7 +23,7 @@ const next = document.querySelector('.next');
 const cities = [
   {
     name: 'Tel Aviv',
-    desc: "I was born in Ramat Ha'Sharon, but my family moved to Tel Aviv when I was six years old. I've lived in this city for most of my life and I feel like I know it by heart. It's so vibrant and alive, there's always something happening no matter the time. True, it's not the most beautiful city, definitely the cleanest, but it's home!",
+    desc: "I was born in Ramat Ha'Sharon, but my family moved to Tel Aviv when I was six years old. I've lived in this city for most of my life and I know it by heart. It's so vibrant and alive, there's always something happening no matter the time. True, it's not the most beautiful city, definitely the cleanest, but it's home!",
     map: 'https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d27046.671421552885!2d34.77676250145792!3d32.07374023668278!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sil!4v1664628238992!5m2!1sen!2sil',
     img: '../img/yoav-aziz-unsplash.jpg',
     alt: 'An avenue in Tel Aviv',
