@@ -379,7 +379,7 @@ p.page-text {
   margin-bottom: 0.3rem;
 }
 
-/* Images classes */
+/* Image classes */
 
 .page-img-big {
   height: 100vh;
@@ -407,13 +407,14 @@ p.page-text {
 .container-maps {
   height: 80vh;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   padding: 20px 20px 20px 50px;
 }
 
 .container-maps > .container-text-left {
   padding: 0;
+  max-width: 50vh;
 }
 
 h1.city {
@@ -430,7 +431,7 @@ h3.city-name {
 }
 
 p.city-desc {
-  min-height: 140px;
+  min-height: 160px;
   margin-bottom: 20px;
 }
 
@@ -467,7 +468,7 @@ p.city-desc {
 
 section.contact {
   min-height: calc(100vh - 120px);
-  padding-top: 50px;
+  padding-top: 40px;
   background: #e1ebee;
   display: flex;
   flex-direction: column;
@@ -487,7 +488,7 @@ h1.form-title {
 h3.form-subtitle {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 /* Form styles */
@@ -500,8 +501,8 @@ form {
 }
 
 .form-group {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 0.9rem;
 }
 
 label {
@@ -512,7 +513,7 @@ input,
 textarea,
 select {
   border-radius: 15px;
-  margin-top: 0.2rem;
+  margin-top: 0.1rem;
   width: 100%;
   border: 1px solid #ccc;
   padding: 5px 10px;

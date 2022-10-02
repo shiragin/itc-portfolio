@@ -61,7 +61,7 @@ function displayCity() {
 
 // Display previous city information
 
-function displayPrev(e) {
+function displayPrev() {
   currentCity--;
   next.classList.remove('hidden');
   displayCity();
@@ -72,7 +72,7 @@ function displayPrev(e) {
 
 // Display next city information
 
-function displayNext(e) {
+function displayNext() {
   currentCity++;
   prev.classList.remove('hidden');
   displayCity();
