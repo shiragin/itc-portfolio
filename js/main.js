@@ -5,15 +5,13 @@ const footer = document.querySelector('.credits');
 
 // create footer with codingLanguages array
 
-function createFooter() {
-  footerContent = `This website has been created with: ${codingLanguages[0]}`;
-  if (codingLanguages.length > 1) {
-    for (i = 1; i < codingLanguages.length - 1; i++) {
-      footerContent += `, ${codingLanguages[i]}`;
-    }
-    footerContent += ` and ${codingLanguages[codingLanguages.length - 1]}`;
-  }
-  footer.innerText = footerContent;
+function createFooter(codingLanguages) {
+  const last = codingLanguages.pop();
+  return codingLanguages.length === 0
+    ? last
+    : [codingLanguages.join(', '), last].join(' and ');
 }
 
-createFooter();
+footer.innerText = `This website has been created with: ${createFooter(
+  codingLanguages
+)}`;
