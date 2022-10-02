@@ -383,7 +383,7 @@ p.page-text {
 
 .page-img-big {
   height: 100vh;
-  width: 50vw;
+  min-width: 50%;
   object-fit: cover;
 }
 
@@ -443,12 +443,12 @@ p.city-desc {
   margin: 0;
   padding-right: 20px;
   width: 90%;
-  height: 400px;
+  height: 450px;
 }
 
 .city-map {
   width: 90%;
-  height: 400px;
+  height: 450px;
 }
 
 .map-buttons {
@@ -457,6 +457,10 @@ p.city-desc {
   justify-content: center;
   margin-top: 0;
   gap: 20px;
+}
+
+img.city-img {
+  min-height: 100vh;
 }
 
 /* Contact page */
