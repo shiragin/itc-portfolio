@@ -103,7 +103,6 @@ a.nav-item {
   margin: 0 2rem;
   font-size: 1.25rem;
   font-weight: 400;
-  /* padding: 0.5rem 0.4rem 0; */
   text-decoration: none;
   color: #2d503f;
   transition: all 0.2s ease-in-out;
@@ -174,7 +173,7 @@ section.bg {
   align-items: center;
   justify-content: space-evenly;
   margin: 0 auto;
-  padding: 6rem 0;
+  padding: 6rem 0 0;
   color: #fff;
 }
 
@@ -241,7 +240,7 @@ li.account:hover p.account {
 .buttons-container {
   height: 100%;
   width: 100%;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   padding-right: 60px;
   display: flex;
   justify-content: flex-end;
@@ -254,7 +253,7 @@ li.account:hover p.account {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .side-buttons > a.side {
@@ -401,42 +400,6 @@ p.page-text {
   width: 80px;
   margin-top: 40px;
   padding: 1.5rem 0;
-}
-
-/* Career section */
-
-.career-list ul {
-  list-style-type: none;
-  font-size: 1rem;
-  line-height: 1.2;
-  font-weight: 200;
-}
-
-h3.career-title {
-  font-size: 1.4rem;
-  line-height: 1.2;
-  margin-bottom: 0.4rem;
-  margin-top: 1rem;
-  text-decoration: underline;
-}
-
-h3.career {
-  font-size: 1.2rem;
-  font-weight: 500;
-  line-height: 1.2;
-}
-
-h5.sub {
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
-}
-
-p.career {
-  font-size: 1rem;
-  line-height: 1.2;
-  margin-bottom: 0.4rem;
-  font-weight: 200;
 }
 
 /* Cities section */

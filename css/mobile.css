@@ -156,10 +156,6 @@
     line-height: 1.2;
   }
 
-  p.career {
-    font-size: 0.9rem;
-  }
-
   .nav-buttons {
     align-items: flex-start;
     gap: 20px;
