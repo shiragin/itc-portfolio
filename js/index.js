@@ -1,4 +1,4 @@
-// html elements
+// DOM elements
 
 const card = document.querySelector('.card');
 const profileImage = document.getElementById('profile-image');
@@ -19,6 +19,7 @@ fetch(GITHUB_URL)
   });
 
 // show card only after img loaded up
+
 profileImage.addEventListener('load', function () {
   card.classList.remove('hidden');
 });
@@ -33,6 +34,7 @@ card.addEventListener('mouseover', function () {
 });
 
 // Add animation to account buttons when clicking on card
+
 card.addEventListener('click', function () {
   accounts.forEach(button => {
     button.classList.add('bounce');
