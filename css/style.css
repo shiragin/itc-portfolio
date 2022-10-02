@@ -239,7 +239,7 @@ li.account:hover p.account {
   height: 100%;
   width: 100%;
   margin-bottom: 40px;
-  padding-right: 40px;
+  padding-right: 60px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
@@ -254,8 +254,8 @@ li.account:hover p.account {
   gap: 30px;
 }
 
-.side-buttons > a > button {
-  margin: 0;
+.side-buttons > a.side {
+  padding: 1.2rem;
 }
 
 .show {
@@ -269,6 +269,7 @@ section.page {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  color: #333;
 }
 
 section.page-dark {
@@ -337,26 +338,44 @@ p.page-text {
 .nav-buttons {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
-button.more {
+.main-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.button.more {
   width: 120px;
   height: 120px;
   border-radius: 50%;
   border: none;
   background-color: #63bb95;
+  color: #333;
   font-size: 1.2rem;
-  font-weight: 200;
-  padding: 1rem 0.3rem 0.6rem;
-  margin: 20px 20px 0 0;
+  line-height: 1.2;
+  font-weight: 400;
+  padding: 1.7rem 0.2rem 1rem;
+  text-align: center;
   cursor: pointer;
 }
 
-button.more:hover {
+.button:visited {
+  color: #333;
+}
+
+.button:hover {
   background-color: rgba(99, 187, 149, 0.7);
 }
 
-button.more i {
+.button.more i {
   display: block;
   font-size: 2.25rem;
   margin-bottom: 0.3rem;
@@ -387,10 +406,11 @@ button.more i {
   border-radius: 50% 0 0 50%;
 }
 
-button.more-small {
+.button.more-small {
   height: 80px;
   width: 80px;
   margin-top: 40px;
+  padding: 1.5rem 0;
 }
 
 /* Career section */
@@ -423,7 +443,7 @@ h5.sub {
 }
 
 p.career {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.2;
   margin-bottom: 0.4rem;
   font-weight: 200;
@@ -432,14 +452,19 @@ p.career {
 /* Cities section */
 
 .container-maps {
-  height: 80vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 20px;
+  align-items: flex-start;
+  padding: 10px 20px 10px 50px;
+}
+
+.container-maps > .container-text-left {
+  padding: 0;
 }
 
 h1.city {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 h3.city-name {
@@ -452,21 +477,31 @@ h3.city-name {
 }
 
 p.city-desc {
-  min-height: 60px;
+  min-height: 140px;
   margin-bottom: 20px;
 }
 
 .map-frame {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   margin: 0;
-  max-width: 100%;
-  padding: 0 60px 0 100px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.city-map {
+  width: 90%;
+  height: 500px;
 }
 
 .map-buttons {
+  width: 90%;
+  display: flex;
+  justify-content: center;
   margin-top: 0;
+  gap: 20px;
 }
 
 /* Contact page */
